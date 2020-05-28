@@ -9,8 +9,8 @@ const Article = (props) => {
       .get("http://public-api.wordpress.com/rest/v1/sites/mysourceoflove.wordpress.com/posts/" + props.match.params.id )
       .then(res => setPost(res.data))
       .catch(error => console.log(error))
-  }, [])
-
+  }, [props.match.params.id])
+  
   let articleJsx
   if (!post) {
     articleJsx = 'Loading...'
