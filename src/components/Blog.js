@@ -7,10 +7,10 @@ const Blog = () => {
   const [posts, setPosts] = useState(null)
 
   useEffect(() => {
-    axios
-      .get(
-        "http://public-api.wordpress.com/rest/v1/sites/mysourceoflove.wordpress.com/posts"
-      )
+    axios({
+      method:'GET',
+      url: 'http://public-api.wordpress.com/rest/v1/sites/mysourceoflove.wordpress.com/posts'
+    })
       .then(res => setPosts(res.data.posts))
       .catch(error => console.log(error))
   }, [])
