@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2ee46e7c1dbd069f66ea5d73ae0c562",
+    "revision": "2afabefc69249bf1902e3b50ee790e98",
     "url": "/mysourceoflove.github.io/index.html"
   },
   {
-    "revision": "7c54e13a8a42729dccc0",
+    "revision": "221a30075366c5ac684d",
     "url": "/mysourceoflove.github.io/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mysourceoflove.github.io/static/js/2.f763c6bb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7c54e13a8a42729dccc0",
-    "url": "/mysourceoflove.github.io/static/js/main.6435f790.chunk.js"
+    "revision": "221a30075366c5ac684d",
+    "url": "/mysourceoflove.github.io/static/js/main.6440cb76.chunk.js"
   },
   {
     "revision": "aa9d23091ade56939035",
