@@ -12,7 +12,7 @@ const ArticlePreview = ({ post }) => {
   const excerpt = removeUnicode(post.excerpt)
   return (
     <div className="article">
-      <a href={"/blog/" + post.ID} className="blackLink">
+      <a href={`#/blog/${post.ID}`} className="blackLink">
         {post.featured_image ? (
           <img
             style={{ width: 'auto', height: '300px' }}
